@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    Using HTML
+    <h1>Hello World!..</h1>
+    Using JS<br /><br />
+    <button onclick="fun()">Click</button>
+    <p id="js"></p>
+    <script>
+      function fun() {
+        document.getElementById("js").innerHTML = "<h1>Hello World!..</h1>";
+      }
+    </script>
+    Using REACT<br />
+    <div id="root"></div>
+    <script type="text/babel">
+      const htmlelement = document.getElementById("root");
+      const reactroot = ReactDOM.createRoot(htmlelement);
+
+      const reactelement = React.createElement("h1", null, "Hello World!..");
+
+      reactroot.render(reactelement);
+    </script>
+    Using Nested REACT
+    <div id="nest"></div>
+    <script type="text/babel">
+      const html = document.getElementById("nest");
+      const root = ReactDOM.createRoot(html);
+
+      const element = React.createElement(
+        "div",
+        null,
+        React.createElement("h1", null, "Hello"),
+        React.createElement("h1", null, "World!..")
+      );
+      root.render(element);
+    </script>
+  </body>
+</html>
