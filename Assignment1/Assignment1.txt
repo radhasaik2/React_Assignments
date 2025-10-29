@@ -1,0 +1,27 @@
+1.What is Emmet ?
+-->It's a syntax-based tool used to reduce time and increase the speed of generating code.
+-->It allows to write abbreviations then expands it.
+eg: div.root = <div class="root"></div>
+
+2.Difference between a library and framework?
+-->Library : Collection of pre-defined functions,classes used to build with in that applications.
+eg: React
+-->Framework : Collection of pre-defined libraries provided to build applications followed with a proper structure .
+eg: React
+
+3.What is CDN ? Why do we use it ?
+-->URL's that provide library files fetched from multiple servers to improve performance,scalability and it contains development and production links.
+-->It used to connect scripts,mostly to connect pre-written code through the links.
+
+4.Why is React known as React ?
+-->React is known to be as "React" which developed by facebook to build fast and responsive UI also to react to the changes in data and get updated automatically. 
+
+5.What is cross-origin in the script tag ?
+-->Cross-origin : Attribute used to request resources from different domain than one it's originated from and enables security.
+
+6.What is the difference between React and ReactDOM ?
+-->React is used to create and use components,hooks where as ReactDOM is required to render those on browser'sDOM or on server.
+
+7.What is difference between react.development.js and react.production.js files via CDN ?
+-->react.development.js : It is readable and requires large file size also contains every required information in detail.
+-->react.production.js : It is minimized code with less file size by removing not used/required tools,information.
