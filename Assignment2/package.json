@@ -2,6 +2,10 @@
   "name": "react_assignments",
   "version": "1.0.0",
   "description": "react tasks with npm",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
   "keywords": [
     "npm",
     "react"
