@@ -1,0 +1,56 @@
+1.What is NPM ?
+-->It is used for managing dependencies and any 3rd party libraries for node which simply acts as a package manager.
+-->A tool in javascript to build and manage packages required within the code.
+
+2.What is Parcel/Webpack ? why do we need it ?
+-->Parcel/Webpack : Both are called as bundlers required to develope applications which contains many other bundlers within them like babel tool,cache making it work faster.
+-->It is needed to be used as it handles transpilation,installing of required dependencies,Hot reloading which can understood by browsers.
+
+3.What is .parcel-cache ?
+-->When parcel builds a project cache stores the information of that project making it not to re-render when parcel is re-built.
+-->It reduces the time taken to build a project also updates any changes been made in project instantly.
+
+4.What is npx ?
+-->It is a tool with in npm allows to execute without explicitly installing any packages/tools like parcel.
+-->This command executes code/project directly from URl allows to use from remote source.
+
+5.What is difference between dependencies vs dev-dependencies ?
+-->Dependencies : Packages in production environment required to run any application in production level.
+-->Dev-Dependencies : Packages required to run application only in development level i.e.  in development environment. 
+
+6.what is Tree Shaking ?
+-->Tree Shaking : It is also reffered as dead code elimination that means unused modules will not be included in bundle during build process of an application.
+-->It reduces the code size in an application.
+
+7.What is Hot Module Replacement ?
+-->Hot Module Replacement : It works to update any changes happened in application without reloading the entire page during runtime.
+-->It provides faster development and dooesn't change any state of application.
+
+8.List down your favourite 5 superpowers of parcel and describe any 3 of them in your own words ?
+-->5 superpowers of parcel :
+a)Transpilation , b)Differential Bundling , c)Tree Shaking , d)Hot Reloading , e)Reliable Caching
+-->3 superpowers of parcel with description : 
+A)Reliable Caching : it contains the complete build process with every information of a project/application making not to build the same code twice.
+B)Transpilation :  As the word it self says that it converts a JSX code to React and then to JS to be understood by JS engine and then converts that too into HTML according to browser engine.
+C)Hot Reloading : It updates any changes performed automatically making the development faster. 
+
+9.what is .gitignore ? what should we add and not add into it ?
+-->.gitignore : File in github repositories used to specify the files that not required to be include or can be ignored prevents from getting committed.
+
+10.What is the difference between package.json and package-lock.json ?
+-->package.json : This defines the dependencies with their version required for a project also include name,keyword and other.
+-->package-lock.json : This performs locking of versions of the dependencies installed that exactly required.
+
+11.Why should i not modify package-lock.json ?
+-->If package-lock.json is modified it changes already present versions of dependencies with inconsistent which causes conflicts when packages are installed.
+
+12.What is node_modules ? is it a good idea to push that on git ?
+-->node_modules : when npm install is performed the downloads are copied into this node_module folder and can be imported when required with no specific path.
+-->It is not a good idea to push these to git as the dependencies with their version are already stored in package.json and package-lock.json using these dependencies can be installed 
+and fetched also it requires a large size.
+
+13.What is the dist folder ?
+-->Dist folder : It contains production level code i.e. to store compiled and finished code of application.
+
+14.What is browserlists ?
+-->Browserlists : It is used to specify the versions of browser that the application supports to ensure it's compatibility.
