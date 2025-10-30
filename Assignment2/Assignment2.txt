@@ -54,3 +54,10 @@ and fetched also it requires a large size.
 
 14.What is browserlists ?
 -->Browserlists : It is used to specify the versions of browser that the application supports to ensure it's compatibility.
+
+CODE :
+-->required commands are as follows :
+a.initializing npm - npm init,
+b.instalation of react and react dom - npm install react npm install react dom ,
+c.installing parcel - npm install -D parcel ,
+d.build of production version of code - npx parcel build index.html
