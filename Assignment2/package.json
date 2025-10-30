@@ -1,0 +1,36 @@
+{
+  "name": "react_assignments",
+  "version": "1.0.0",
+  "description": "react tasks with npm",
+  "keywords": [
+    "npm",
+    "react"
+  ],
+  "homepage": "https://github.com/radhasaik2/React_Assignments#readme",
+  "bugs": {
+    "url": "https://github.com/radhasaik2/React_Assignments/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radhasaik2/React_Assignments.git"
+  },
+  "license": "ISC",
+  "author": "radhasaik",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "dom": "^0.0.3",
+    "install": "^0.13.0",
+    "npm": "^11.6.2",
+    "react": "^19.2.0"
+  },
+  "browserslist": [
+    "last 10 chrome versions",
+    "last 2 firefox version"
+  ]
+}
