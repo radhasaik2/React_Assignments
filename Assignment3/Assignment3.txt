@@ -1,0 +1,19 @@
+1. What is JSX ?
+-->JSX is a syntax-based similar to html to merge html into JS/React to create elements,components.
+-->JSX differs with html in terms of attributes also it needs to transpilated as it is not understandable to JS engine.
+
+2. Superpowers of JSX ?
+-->JSX Syntax allows to write code similar to html within javascript,react to build UI.
+-->It allows to write Js functions,expression using "{ }" within JSX.
+-->It allows to use DOM without even creating elements.
+
+3. Role of type attribute in script tag ? what options can i use there ?
+-->type : This attribute is used to specify the type of script code present.
+-->type takes the following :
+a)text/bable , b)module , c)application/json and default d)text/javascript
+
+4. {TitleComponent} vs {<TitleComponent />} vs {<TitleComponent></TitleComponent>} in JSX ?
+-->{TitleComponent} : It is a simple variable type which holds or pass the data within a component as prop.
+-->{<TitleComponent />} : It is rendering  of a react component.
+-->{<TitleComponent></TitleComponent>} : It is just opening and closing of a component.
+
